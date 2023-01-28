@@ -1,0 +1,31 @@
+.navbar{
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    padding: 1.5rem 0;
+    background-color: white;
+    width: 100%;
+    .logo{
+        background-color: red;
+    }
+    .link{
+        display: flex;
+        li{
+            margin-left: 1rem;
+            a{
+                color: rgb(153, 149, 149);
+            }
+        }
+    }
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            margin-left: 1rem;
+        }
+        .bars{
+            font-size: 1.55rem;
+        }
+    }
+}

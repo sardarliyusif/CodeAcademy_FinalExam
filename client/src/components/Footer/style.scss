@@ -1,0 +1,20 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 10rem;
+    &-menu{
+        display: flex;
+        li{
+            margin-right: 1rem;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    &-right{
+        color: rgb(122, 118, 118);
+    }
+}

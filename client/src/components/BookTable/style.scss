@@ -1,0 +1,49 @@
+.booking{
+    display: flex;
+    .book-content{
+        padding: 3rem;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .book-reser{
+            font-size: 1.5rem;
+            color: red;
+            font-style: italic;
+            font-weight: 700;
+        }
+        .book-name{
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 2rem 0 4rem 0;
+        }
+        .book-form{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .form-part{
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1rem;
+                label{
+                    margin-bottom: 0.5rem;
+                }
+                input{
+                    background-color: white;
+                    border: 1px solid #ddd;
+                    border-radius: 1rem;
+                    padding: 0.75rem 1.5rem;
+                }
+            }
+        }
+    }
+    .book-right{
+        width: 40%;
+        img{
+            width: 100%;
+            height: 350px;
+            border-radius: 1rem;
+        }
+    }
+}

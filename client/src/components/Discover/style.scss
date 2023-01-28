@@ -1,0 +1,29 @@
+.discover{
+    background-image: url('../../../public/assets/img/discover.jpg');
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    &__content{
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background-image: url('../../../public/assets/img/discover.jpg');
+        .discover_name{
+            color: red;
+            font-style: italic;
+            font-size: 2rem;
+        }
+        .discover_title{
+            font-size: 4rem;
+            color: #fff;
+            margin-top: 2rem;
+            font-weight: 700;
+        }
+    }
+}

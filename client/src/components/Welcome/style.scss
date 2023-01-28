@@ -1,0 +1,43 @@
+.welcome {
+  display: flex;
+  padding: 5rem 0;
+
+  &__content {
+    width: 50%;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .welcome_italian{
+        font-size: 1.5rem;
+        font-style: italic;
+        color: red;
+        font-weight: 700;
+    }
+    .welcome_title{
+        font-size: 2.5rem;
+        margin: 1.5rem 0 3rem 0;
+        font-weight: 700;
+    }
+    .welcome_desc{
+        text-align: center;
+        color: rgb(172, 166, 166);
+        margin-bottom: 1rem;
+    }
+    .our-story {
+      display: flex;
+      align-items: center;
+      color: rgb(172, 166, 166);
+    }
+  }
+  &__img {
+    width: 50%;
+    padding: 5rem;
+    img {
+      border-radius: 10px;
+      width: 100%;
+    }
+  }
+}
